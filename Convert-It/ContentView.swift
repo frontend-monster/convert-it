@@ -148,7 +148,7 @@ struct ContentView: View {
                             Text($0)
                         }
                     }.pickerStyle(.segmented)
-                }.padding(EdgeInsets(top:0, leading:-20, bottom:0, trailing:-20))
+                }.padding(EdgeInsets(top:0, leading:-10, bottom:0, trailing:-10))
                     .listRowBackground(Color.clear)
                 Section("From - To 👩‍❤️‍💋‍👨") {
                     Picker("From Unit", selection: $selectedUnitFrom) {
